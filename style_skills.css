@@ -1,0 +1,334 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pozadina{
+    background-color: #ecf1fe;
+    width: 100%;
+    height: 98.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#podloga{
+    width: 90vw;
+    height: 90vh;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 1px -1px 19px 2px rgba(122,122,122,0.22);
+    position: relative;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+}
+#links a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+#links a h4:hover{
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4070f4;
+    border-radius: 2px;
+}
+#links a h4:active{
+    color: grey;
+}
+#links a:visited{
+    color: black;
+}
+
+
+
+#kvadratcinja{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 300px;
+    align-items: center;
+}
+.gradient{
+   width: 310px;
+    height: 260px; 
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(169, 87, 199, 1) 50%, rgba(83, 198, 237, 1) 100%);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.gradient:hover{
+    width: 360px;
+    height: 310px;
+}
+.kvadratce{
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+    background-color: #ecf1fe;
+    display: inline-block;
+    transition: 0.3s;
+}
+.kvadratce:hover{
+    width: 350px;
+    height: 300px;
+    #linija1, #linija2, #linija3{
+        width: 275px;
+        height: 15px;
+        border-radius: 23px;
+        margin-top: 0px;
+    }
+    .tekst2{
+    margin-left: 20px;
+    font-size: 14px;
+    }
+}
+.tekst{
+    display: flex;
+    justify-content: center;
+}
+.tekst2{
+    margin-left: 20px;
+    transition: 0.3s;
+}
+#linija1{
+    width: 225px;
+    height: 10px;
+    border-radius: 20px;
+    border: solid black 1px;
+    margin-left: 20px;
+    margin-top: -10px;
+    transition: 0.3s;
+}
+#progress1{
+    height: 100%;
+    width: 75%;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(169, 87, 199, 1) 50%, rgba(83, 198, 237, 1) 100%);
+    opacity: 60%;
+}
+#progress4{
+    height: 100%;
+    width: 95%;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(169, 87, 199, 1) 50%, rgba(83, 198, 237, 1) 100%);
+    opacity: 60%;
+}
+#progress7{
+    height: 100%;
+    width: 85%;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(169, 87, 199, 1) 50%, rgba(83, 198, 237, 1) 100%);
+    opacity: 60%;
+}
+#linija2{
+    width: 225px;
+    height: 10px;
+    border-radius: 20px;
+    border: solid black 1px;
+    margin-left: 20px;
+    margin-top: -10px;
+    transition: 0.3s;
+}
+#progress2{
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(169, 87, 199, 1) 50%, rgba(83, 198, 237, 1) 100%);
+    opacity: 60%;
+}
+#progress5{
+    height: 100%;
+    width: 88%;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(169, 87, 199, 1) 50%, rgba(83, 198, 237, 1) 100%);
+    opacity: 60%;
+}
+#progress8{
+    height: 100%;
+    width: 75%;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(169, 87, 199, 1) 50%, rgba(83, 198, 237, 1) 100%);
+    opacity: 60%;
+}
+#linija3{
+    width: 225px;
+    height: 10px;
+    border-radius: 20px;
+    border: solid black 1px;
+    margin-left: 20px;
+    margin-top: -10px;
+    transition: 0.3s;
+}
+#progress3{
+    height: 100%;
+    width: 45%;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(169, 87, 199, 1) 50%, rgba(83, 198, 237, 1) 100%);
+    opacity: 60%;
+}
+#progress6{
+    height: 100%;
+    width: 75%;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(169, 87, 199, 1) 50%, rgba(83, 198, 237, 1) 100%);
+    opacity: 60%;
+}
+#progress9 {
+    height: 100%;
+    width: 60%;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(169, 87, 199, 1) 50%, rgba(83, 198, 237, 1) 100%);
+    opacity: 60%;
+}
+
+
+/* Keep your original styles unchanged */
+
+/* Add these responsive tweaks */
+
+@media (max-width: 1024px) {
+  #navbar {
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #links {
+    justify-content: center;
+  }
+  #links a {
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+  #kvadratcinja {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+  }
+  .gradient, .kvadratce {
+    width: 320px;
+    height: 280px;
+  }
+  .gradient:hover, .kvadratce:hover {
+    width: 340px;
+    height: 300px;
+  }
+  #linija1, #linija2, #linija3 {
+    width: 220px;
+    height: 12px;
+  }
+  .tekst2 {
+    margin-left: 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 700px) {
+  #navbar {
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #links {
+    flex-direction: column;
+    align-items: center;
+  }
+  #links a {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  #kvadratcinja {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .gradient, .kvadratce {
+    width: 90vw;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .gradient:hover, .kvadratce:hover {
+    width: 90vw;
+    max-width: 350px;
+    height: auto;
+  }
+  #linija1, #linija2, #linija3 {
+    width: 90%;
+    max-width: 280px;
+    height: 10px;
+  }
+  .tekst2 {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  #pozadina {
+    height: auto;
+    padding: 20px 10px;
+  }
+  #podloga {
+    width: 95vw;
+    height: auto;
+    padding: 20px 10px;
+  }
+  #text, #link {
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+  #navbar {
+    margin: 10px 0;
+  }
+  #links {
+    justify-content: center;
+  }
+  #links a {
+    margin: 0 10px 15px 10px;
+  }
+  #kvadratcinja {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .gradient, .kvadratce {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .gradient:hover, .kvadratce:hover {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+  #linija1, #linija2, #linija3 {
+    width: 100%;
+    max-width: 280px;
+    height: 8px;
+  }
+  .tekst2 {
+    margin-left: 8px;
+    font-size: 12px;
+  }
+}
+
