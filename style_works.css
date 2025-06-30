@@ -58,7 +58,7 @@
 #link{
     display: block;
     margin-left: 250px;
-    margin-top: 220px;
+    margin-top: 138px;
 }
 .small{
     padding-right: 20px;
@@ -72,48 +72,16 @@
 }
 
 
-/* Your existing styles ... */
+div.scroll-container {
+  background-color: #ecf1fe;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 90px;
+}
 
-@media (max-width: 900px) {
-  #navbar {
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  #text {
-    margin-left: 20px;
-    margin-top: 50px;
-    font-size: 30px;
-  }
-  #link {
-    margin-left: 20px;
-    margin-top: 40px;
-  }
-  #links {
-    justify-content: center;
-  }
-  .small {
-    width: 6%;
-    padding-right: 10px;
-  }
-}
-@media (max-width: 500px) {
-  #text {
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 10px;
-  }
-  #link {
-    margin-left: 10px;
-    margin-top: 20px;
-  }
-  .small {
-    width: 10%;
-  }
-}
-.logo{
-  float: right;
-  margin-top: 165px;
-  margin-right: 50px;
+div.scroll-container img {
+  padding: 10px;
+  border-radius: 25px;
 }
